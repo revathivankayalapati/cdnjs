@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+    margin: 0%;  
+    font-family: "Ubuntu",sans-serif;
+  }
+  header{
+      background-color: rgb(62, 58, 58);
+      /* border: #d9643a; */
+      height: 80px;
+  
+  }
+  img{
+      /* border: #d9643a; */
+      padding-top: 20px;
+      padding-left: 20px;
+      height: 36px;
+      display: flex;
+      /* border: 2px solid white; */
+      justify-content: center;
+  }
+  a{
+      /* border: 2px solid white; */
+      color: white;
+      font-weight: 200;
+      text-decoration: none;
+      font-size:x-large;
+      font-family: 'Prompt', sans-serif;
+  }
+  body>header>div>div{
+      /* border: 2px solid white; */
+      position: relative;
+      bottom: 50px;
+      padding-left: 800px;
+      display: flex;
+      justify-content:space-between;
+      padding-right: 20px;
+  }
+  #svg{
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      background-color: #454647;
+  }
+  #span{
+      border-radius: 50%;
+      display: inline-block;
+      height: 10px;
+      margin: 0 0 0 5px;
+      width: 10px;
+      background-color: #2ecc71;
+  }
+  #font{
+      
+      color: #ebebeb;
+      font-size: 20px;
+      display: grid;
+      justify-content: center;
+      letter-spacing: .41px;
+      margin-top: 50px;
+      margin-bottom: 234px;
+  }
+  i{
+      position: relative;
+      left: 180px;
+      bottom: 25px;
+      font-size: large;
+      padding-left: 15px;
+  }
+  h1{
+      font-size:50px;
+      font-weight: 100;
+  }
+  h2{
+      font-size:x-large;
+      font-weight: 100;
+  }
+  #color1{
+      font-size: large;
+      font-weight: 400;
+  }
+  #color2{
+      padding-left: 10px;
+  }
+  .image{
+      padding: 0px;
+      height: 60px;
+  }
+  .icon{
+      height: 15px;
+      width: 15px;
+  }
+  #icon3{
+      padding-left: 10px;
+      height: 15px;
+      width: 15px;
+      fill: #ebebeb;
+      z-index: +2;
+  }
+  #color{
+      background-color: #d9643a;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      position: relative;
+      top: 3px;
+  }
+  #input{
+      border:1px solid #ebebeb;
+      height: 50px;
+      width: 100%;
+      background-color: #ebebeb;
+      border-radius: 10px;
+      display: flex;
+      padding-left: 0%;
+  }
+  input{
+      border: none;
+      border-radius: 5px;
+      background-color: #ebebeb;
+      width: 100%;
+      padding-left: 10px;
+      font-size: large;
+  }
+  #aside{
+      bottom: 0;
+      height: 200px;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      width: 200px;
+      z-index: 2;
+  }
+  #aside::after{
+      border-bottom: 200px solid #343535;
+      border-left: 200px solid transparent;
+      border-top: 200px solid transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: 0;
+  }
+  #aside1{
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: rotate(-45deg);
+      z-index: 1;
+  }
+  #aside2{
+      font-size:18px;
+      font-weight: 400;
+      font-family: "Ubuntu",sans-serif;
+      position: relative;
+      bottom: 20px;
+  }
+  .aside{
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      padding-left: 45px;
+      padding-top: 10px;
+      fill: #ebebeb;
+  }
+  .icon3{
+      z-index: 2;
+      align-items: center;
+      height: 15px;
+      width: 15px;
+      fill: #ebebeb;
+   
+  }
+  .icon1{
+      font-family: "Ubuntu",sans-serif;
+      font-weight: 400;
+      color:white;
+      font-size: 16px;
+      margin: 0 0 -12.8px;
+      padding: 25.6px;
+      text-decoration: none;
+      transition: color .15s cubic-bezier(1,-.115,.975,.855);
+  }
+  footer{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-right: 200px;
+      padding-bottom: 100px;
+      background-color: #242525;
+      color: #ebebeb;
+  }
